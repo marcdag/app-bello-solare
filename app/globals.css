@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { -webkit-text-size-adjust: 100%; }
+body { @apply bg-cinza-fundo text-tinta antialiased; }
+:focus-visible { outline: 3px solid #F5A623; outline-offset: 2px; }
+input::placeholder, textarea::placeholder { color: #6B7784; }
+table th { @apply bg-slate-50 px-3.5 py-2.5 text-left text-xs font-bold uppercase tracking-wide text-cinza-texto; }
+table td { @apply border-t border-slate-100 px-3.5 py-3 align-middle text-sm; }
