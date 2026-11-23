@@ -35,6 +35,8 @@ Toda a permissão é feita **no banco** (Row Level Security e funções), não s
    2. `20261119000002_seguranca_e_regras.sql`
    3. `20261119000003_carga_unidades_vagas.sql`
    4. `20261119000004_regras_regimento.sql`
+   5. `20261120000005_permissoes_authenticated.sql`
+   6. `20261123000006_corrige_gen_random_bytes.sql`
 
    (Quem usa a linha de comando pode fazer `npx supabase link` e `npx supabase db push`.)
 3. Confira a carga:
